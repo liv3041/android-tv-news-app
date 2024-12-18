@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardView"
+            android:tag="CardViewTag"
+
+            android:layout_width="400dp"
+            android:layout_height="350dp"
+            android:layout_margin="8dp"
+
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/lb_tv_white"
+            android:background="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:id="@+id/card_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="LinearLayout"
+
+                android:padding="8dp">
+
+                <!-- ImageView for the article image -->
+                <ImageView
+                    android:id="@+id/card_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:tag="HeadlineImageView"
+
+                    android:scaleType="centerCrop"/>
+
+                <!-- TextView for the article title -->
+                <TextView
+                    android:id="@+id/card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:tag="titleTextView"
+                    android:fontFamily="poppins"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="4dp"/>
+
+                <!-- TextView for the article description -->
+                <TextView
+                    android:id="@+id/card_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="poppins"
+                    android:tag="ContentTextView"
+                    android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
