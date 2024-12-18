@@ -1,6 +1,6 @@
 # News Application  for Android TV
 
-# News API:
+## News API:
 Taken from: https://newsapi.org/ <br />
 Endpoints: source, top headlines <br />
 
