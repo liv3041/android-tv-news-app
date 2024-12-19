@@ -23,7 +23,8 @@ TV 1080p viewportDevice/Resolution. <br />
 ## Setup
 1. Clone the repository.<br />
 2. Open it in Android Studio.<br />
-3. Build and run the app on an emulator or device.<br />
+3. Create an object called APIConstants.kt and put your API Key and Base URL there.
+4. Build and run the app on an emulator or device.<br />
 
 ## Tech Stack
 - Kotlin<br />
